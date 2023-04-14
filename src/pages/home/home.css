@@ -1,0 +1,88 @@
+.cont {
+    position: absolute;
+    background-color: rgba(44, 192, 165, 0.3);
+    border-radius: 20px;
+    color: white;
+    margin: 3rem;
+    margin-top: 10rem;
+    height: 320px;
+    width: 50%;        
+}
+
+.contHead {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    font-size: 3vw;
+    font-weight: 600;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.contHead:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.contTxt {
+    margin-top: -3rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    line-height: 2.6vw;
+}
+
+.contBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    border-color: rgba(236, 241, 234, 0.3);
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4vw;
+
+    /* However, margin: auto will work for horizontal margins only 
+    (more on the why later), and it also won’t work with
+    floated and inline elements and by itself, it also 
+    cannot work in absolute and fixed positioned elements */
+    
+
+    /* margin: 13rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    
+    
+     */
+    /* word-wrap: break-word; */
+    
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+
+.contBtn:hover {
+    border: none;
+}
+/* this hover makes the button have the hober effect */
+
+ /* .cont a:link {
+     text-decoration: none;
+ }
+
+ .cont a:visited {
+     text-decoration: none;
+ }
+
+ .cont a:hover {
+     text-decoration: none;
+ }
+
+ .cont a:active {
+     text-decoration: none;
+ } */
